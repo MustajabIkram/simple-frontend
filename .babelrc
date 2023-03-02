@@ -1,0 +1,7 @@
+{
+  "presets": ["@babel/preset-env", "@babel/preset-react"], // Presets are the set of plugins defined by Babel.
+  "plugins": ["@babel/plugin-proposal-class-properties"]
+  // Preset env allows to use babel-preset-es2015, babel-preset-es2016, and babel-preset-es2017 and it will transform them to ES5.
+  // Preset react allows us to use JSX syntax and it will transform JSX to Javascript.
+  // @babel/plugin-proposal-class-properties plugin transforms static class properties as well as properties declared with the property initializer syntax.
+}

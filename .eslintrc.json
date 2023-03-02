@@ -1,0 +1,14 @@
+{
+  "extends": ["airbnb"], // We are using the Airbnb’s Javascript Style.
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    // Optional Airbnb's configuration overriding
+    "no-console": "off",
+    "comma-dangle": "off",
+    "react/jsx-filename-extension": "off"
+  },
+  "import/no-extraneous-dependencies": ["error", { "devDependencies": true }]
+}
