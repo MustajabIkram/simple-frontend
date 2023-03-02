@@ -2,7 +2,7 @@
   "name": "template-generator",
   "version": "1.0.0",
   "description": "plan generator",
-  "main": "src/server/index.js",
+  "private": true,
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
